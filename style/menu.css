@@ -1,0 +1,15 @@
+.menuNavigate{
+  display: flex;
+  gap: 40px;
+  font-weight: 700;
+  >h2{
+    cursor: pointer;
+    font-size: 40px;
+  }
+}
+
+
+
+.activeMenuNavigate{
+  color: #262442;
+}
