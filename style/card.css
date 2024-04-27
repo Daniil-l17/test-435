@@ -1,0 +1,154 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+
+
+.card-item {
+  border-radius: 30px;
+  display: flex;
+  gap: 43px;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  box-shadow: -1px -2px 47px -7px rgba(0, 0, 0, 0.34);
+  -webkit-box-shadow: -1px -2px 47px -7px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: -1px -2px 47px -7px rgba(0, 0, 0, 0.34);
+
+  >img {
+    width: 300px;
+    height: 271px;
+  }
+}
+
+.card-item-net {
+  display: flex;
+  gap: 32px;
+}
+
+.card-item-left {
+  width: 235px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card-item-rigth{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card-item-left-header,.card-item-rigth-header{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  >h2{
+  font-weight: 400 ;
+  line-height: 18px ;
+  text-align: left ;
+  }
+  >p{
+
+    margin-top: 2px;
+font-size: 18px;
+font-weight: 600;
+line-height: 18px;
+color: #262442;
+text-align: left;
+  }
+}
+
+.card-item-left-main{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  >h2{
+    
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+  }
+  >p{
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+color: #262442;
+  }
+}
+
+.card-item-left-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  >h2{
+    
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+  }
+  >p{
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+color: #262442;
+  }
+}
+
+.card-item-rigth-footer{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  h2{
+    font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+  }
+  p{
+    font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+color: #262442;
+  }
+}
+
+.card-item-rigth-main{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  h2{
+    font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+text-align: left;
+  }
+  p{
+    font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+color: #262442;
+  }
+}
+
+.prod{
+  width: 236px;
+  gap: 4px;
+  flex-direction: column;
+  display: flex;
+}
+
+.fot{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
