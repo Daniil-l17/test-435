@@ -1,0 +1,178 @@
+
+.search_auction{
+  font-family: "Roboto", sans-serif;
+  margin: 30px 0px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.search_block_large{
+  background: #F1F1F5;
+  padding: 17px 0px 17px 30px;
+  border-radius: 10px;
+  width: 764px;
+}
+
+.search_block_large > input{
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color:transparent;
+  outline: none;
+}
+
+.search_block_small{
+  background: #F1F1F5;
+  padding: 17px 0px 17px 30px;
+  border-radius: 10px;
+  width: 358px;
+}
+
+.search_block_small > input {
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color:transparent;
+  outline: none;
+}
+
+.search_bl{
+  display: flex;
+  gap: 20px;
+}
+
+.search_v{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.search_block_full{
+  background: #F1F1F5;
+  padding: 17px 0px 17px 30px;
+  border-radius: 10px;
+  width: 1170px;
+}
+
+.search_block_full > input{
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  width: 270px;
+  font-weight: 400;
+  background-color:transparent;
+  outline: none;
+}
+
+.search_dasa{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.search_dasa > div{
+  background: #F1F1F5;
+  padding: 17px 0px 17px 30px;
+  border-radius: 10px;
+  width: 560px;
+}
+
+.search_dasa > div > input{
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color:transparent;
+  outline: none;
+}
+
+.prodsv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.prodsv > div{
+  background: #F1F1F5;
+  padding: 17px 0px 17px 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 355px;
+}
+
+.prodsv > div > input {
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color:transparent;
+  outline: none;
+}
+
+.prodsv > div > h2{
+font-size: 16px;
+font-weight: 400;
+width: 174px;
+line-height: 19.2px;
+text-align: left;
+}
+
+.prodsv > div > img{
+  margin-right: 35px;
+}
+
+.btns_search{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns_search > div > button{
+  outline: none;
+}
+
+.btns_search > div {
+  display: flex;
+  gap: 20px;
+}
+
+.custom-button_1{
+  border: 1px solid #262442;
+  width: 107px;
+  border-radius: 10px;
+  background: transparent;
+  font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+cursor: pointer;
+line-height: 15px;
+color: #262442;
+  height: 45px;
+}
+
+.custom-button_2{
+  width: 183px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: Roboto;
+  background: linear-gradient(229.99deg, #BA38FF -2.16%, #AF2EFF 16.16%, #9E00FF 51.38%, #5532FF 71.26%, #5431FF 79.66%, #5430FF 93.81%);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #FFFFFF;
+  height: 45px;
+}
+
+.btns_search > h2{
+cursor: pointer;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+color: #262442;
+}

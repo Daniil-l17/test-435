@@ -2,12 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
     <title>Document</title>
     <link rel="stylesheet" href="./style/global.css" />
     <link rel="stylesheet" href="./style/container.css" />
     <link rel="stylesheet" href="./style/main.css" />
-    <link rel="stylesheet" href="./style/navigate.css" />
+    <link rel="stylesheet" href="./style/list_pages.css" />
+    <link rel="stylesheet" href="./style/search_auction.css" />
+    <link rel="stylesheet" href="./style/search_title.css" />
     <link rel="stylesheet" href="./style/card.css" />
     <link rel="stylesheet" href="./style/menu.css" />
     <link rel="stylesheet" href="./style/predfooter.css" />
@@ -15,14 +17,109 @@
   <body>
     <div class="container">
       <main>
-        <div class="menuNavigate">
-          <h2 class="activeMenuNavigate">Аукционы</h2>
-          <h2>Публичные предложения</h2>
-          <h2>Конкурсы</h2>
+
+        <div class="search_title">
+          <div class="">
+            <span class="">Аукционы</span>
+            <img src="./img/Vector(2).png" alt="">
+          </div>
+          <label class="active_title">Аукционы</label>
+          <label>Публичные предложения</label>
+          <label>Конкурсы</label>
         </div>
-        <div>
-          <h2>поиск, таблица</h2>
+
+
+        <span class="toggle-icon hide-btn">Скрыть поиск</span>
+
+
+
+
+        
+        <div class="search_auction">
+
+          <div class="search_bl">
+            <div class="search_v">
+              <div class="search_block_large">
+                <input type="text" placeholder="Наименование торга" >
+              </div>
+              <div class="search_block_large">
+                <input type="text" placeholder="Наименование лота" >
+              </div>
+            </div>
+            <div class="search_v">
+              <div class="search_block_small">
+                <input type="text" placeholder="Номер торга" >
+              </div>
+              <div class="search_block_small">
+                <input type="text" placeholder="Номер лота" >
+              </div>
+            </div>
+          </div>
+
+
+            <div class="search_block_full">
+              <input type="text" placeholder="Организатор торгов" >
+            </div>
+
+
+            <div class="search_dasa">
+              <div class="">
+                <input type="text" placeholder="ИНН организатора" >
+              </div>
+              <div class="">
+                <input type="text" placeholder="КПП организатора" >
+              </div>
+            </div>
+
+            <div class="search_block_full">
+              <input type="text" placeholder="Адрес регистрации организатора" >
+            </div>
+
+
+              <div class="prodsv">
+                <div class="">
+                  <input type="text" placeholder="Дата проведения с" >
+                </div>
+                <div class="">
+                  <input type="text" placeholder="Дата проведения по" >
+                </div>
+                <div class="vsddvs">
+                  <h2>Форма представлений предложений о цене</h2>
+                  <img src="./img/Vector(2).png" alt="">
+                </div>
+              </div>
+
+              <div class="prodsv">
+                <div class="">
+                  <input type="text" placeholder="Начальная цена от руб." >
+                </div>
+                <div class="">
+                  <input type="text" placeholder="Начальная цена до руб." >
+                </div>
+                <div class="vsddvs">
+                  <h2>Статус</h2>
+                  <img src="./img/Vector(2).png" alt="">
+                </div>
+              </div>
+
+
+              <div class="btns_search">
+                <h2>Скрыть панель поиска</h2>
+                <div>
+                  <button class="custom-button_1">Очистить</button>
+                  <button class="custom-button_2">Искать аукцион</button>
+                </div>
+              </div>
+
         </div>
+
+
+
+
+
+
+
+
         <div class="card">
             <div class="card-item">
               <img src="./img/image 15279.png" alt="">
@@ -364,8 +461,42 @@
                           </div>
                         </div>
             </div>
-            <div class="navigate">
-              <h2>hello</h2>
+
+            <div class="list_pages">
+              <div class="more_pages">
+                <img src="./img/Group 2248.png" alt="">
+                <img src="./img/Vector.png" alt="">
+              </div>
+              <ul class="wrapper_pages">
+                  <li class="page page_active">
+                    <span class="currentPage">1</span>
+                  </li>
+                  <li class="page">
+                    <span class="currentPage">2</span>
+                  </li>
+                  <li class="page">
+                    <span class="currentPage">3</span>
+                  </li>
+                  <li class="page">
+                    <span class="currentPage">4</span>
+                  </li>
+                  <li class="page">
+                    <span class="currentPage">5</span>
+                  </li>
+                  <li class="page">
+                    <span class="currentPage">6</span>
+                  </li>
+                  <li class="page">
+                    <span class="currentPage">7</span>
+                  </li>
+                  <li class="page">
+                    <span class="currentPage">8</span>
+                  </li>
+                </ul>
+                <div class="more_pages">
+                  <img src="./img/Vector(1).png" alt="">
+                  <img src="./img/Group 2248(1).png" alt="">
+                </div>
             </div>
         </div>
       </main>
