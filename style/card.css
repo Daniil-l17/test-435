@@ -108,25 +108,9 @@
   display: flex;
   flex-direction: column;
   gap: 7px;
-
-  >h2 {
-
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    text-align: left;
-  }
-
-  >p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18.2px;
-    text-align: left;
-    color: #262442;
-  }
 }
 
-.card-item-left-foote > p {
+.card-item-left-footer > p {
       font-size: 14px;
     font-weight: 400;
     line-height: 18.2px;
@@ -134,47 +118,58 @@
     color: #262442;
 }
 
+
+.card-item-left-footer > h2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+}
+
+
 .card-item-rigth-footer {
   display: flex;
   gap: 40px;
   align-items: center;
+}
 
-  h2 {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    text-align: left;
-  }
+.card-item-rigth-footer > div > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: #262442;
+}
 
-  p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18.2px;
-    text-align: left;
-    color: #262442;
-  }
+.card-item-rigth-footer > div > h2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
 }
 
 .card-item-rigth-main {
   display: flex;
   gap: 40px;
   align-items: center;
-
-  h2 {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    text-align: left;
-  }
-
-  p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18.2px;
-    text-align: left;
-    color: #262442;
-  }
 }
+
+.card-item-rigth-main > div > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: #262442;
+}
+
+
+.card-item-rigth-main > div > h2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+}
+
 
 .prod {
   width: 236px;

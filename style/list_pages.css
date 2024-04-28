@@ -48,3 +48,8 @@
   height: 3px;
 }
 
+@media (max-width: 950px) {
+  .list_pages{
+    display: none;
+  }
+}
