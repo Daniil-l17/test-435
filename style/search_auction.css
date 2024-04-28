@@ -1,5 +1,4 @@
-
-.search_auction{
+.search_auction {
   font-family: "Roboto", sans-serif;
   margin: 30px 0px 30px 0px;
   display: flex;
@@ -7,154 +6,117 @@
   gap: 20px;
 }
 
-.search_block_large{
+.search_block_large {
   background: #F1F1F5;
   padding: 17px 0px 17px 30px;
   border-radius: 10px;
   width: 764px;
 }
 
-.search_block_large > input{
+.search_block_large>input {
   border: none;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  background-color:transparent;
+  background-color: transparent;
   outline: none;
 }
 
-.search_block_small{
+.search_block_small {
   background: #F1F1F5;
   padding: 17px 0px 17px 30px;
   border-radius: 10px;
   width: 358px;
 }
 
-.search_block_small > input {
+.search_block_small>input {
   border: none;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  background-color:transparent;
+  background-color: transparent;
   outline: none;
 }
 
-.search_bl{
+.search_bl {
   display: flex;
   gap: 20px;
 }
 
-.search_v{
+.search_v {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.search_block_full{
+.search_block_full {
   background: #F1F1F5;
   padding: 17px 0px 17px 30px;
   border-radius: 10px;
+  width: 100%;
 }
 
-.search_block_full > input{
+.search_block_full>input {
   border: none;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   width: 270px;
   font-weight: 400;
-  background-color:transparent;
+  background-color: transparent;
   outline: none;
 }
 
-.search_dasa{
+.search_dasa {
   display: flex;
   justify-content: space-between;
 }
 
 
-.search_dasa > div{
-  background: #F1F1F5;
-  padding: 17px 0px 17px 30px;
-  border-radius: 10px;
-  width: 560px;
-}
 
-.search_dasa > div > input{
-  border: none;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  background-color:transparent;
-  outline: none;
-}
-
-.prodsv{
+.prodsv {
   display: flex;
   justify-content: space-between;
 }
 
-.prodsv > div{
-  background: #F1F1F5;
-  padding: 17px 0px 17px 30px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 355px;
-}
 
-.prodsv > div > input {
-  border: none;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  background-color:transparent;
-  outline: none;
-}
 
-.prodsv > div > h2{
-font-size: 16px;
-font-weight: 400;
-width: 174px;
-line-height: 19.2px;
-text-align: left;
-}
 
-.prodsv > div > img{
+
+
+
+.prodsv>div>img {
   margin-right: 35px;
 }
 
-.btns_search{
+.btns_search {
   display: flex;
   margin-top: 10px;
   align-items: center;
   justify-content: space-between;
 }
 
-.btns_search > div > button{
-  outline: none;
-}
 
-.btns_search > div {
+
+.btns_search>.btn-net {
   display: flex;
   gap: 20px;
 }
 
-.custom-button_1{
+.custom-button_1 {
   border: 1px solid #262442;
   width: 107px;
   border-radius: 10px;
   background: transparent;
   font-family: Roboto;
-font-size: 15px;
-font-weight: 500;
-cursor: pointer;
-line-height: 15px;
-color: #262442;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 15px;
+  color: #262442;
   height: 45px;
 }
 
-.custom-button_2{
+.custom-button_2 {
   width: 183px;
   border: none;
   cursor: pointer;
@@ -168,55 +130,54 @@ color: #262442;
   height: 45px;
 }
 
-.btns_search > h2{
-cursor: pointer;
-font-size: 16px;
-font-weight: 400;
-line-height: 16px;
-color: #262442;
+.btns_search>h2 {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #262442;
 }
 
 
 @media (max-width: 700px) {
-  .btns_search > div {
-    display: flex;
+  .btns_search>h2 {
+    display: none;
+  }
+
+  .btns_search>.btn-net {
+    justify-content: space-between;
     width: 100%;
     flex-direction: row-reverse;
-    justify-content: space-between;
-  }
-  .btns_search > h2 {
-    display: none;
   }
 }
 
 
 
 @media (max-width: 1235px) {
-  .media_search_v > .search_block_small{
+  .media_search_v>.search_block_small {
     width: 555px;
   }
-  .prodsv{
+
+  .prodsv {
     flex-direction: column;
     gap: 20px;
   }
-  .prodsv > div {
-    width: auto;
-  }
-  .search_dasa{
+
+  .search_dasa {
     flex-direction: column;
     gap: 20px;
   }
-  .search_dasa > div {
-    width: auto;
-  }
-  .media_search_v{
+
+  .media_search_v {
     flex-direction: row;
     justify-content: space-between;
   }
-  .search_bl{
+
+  .search_bl {
     flex-direction: column;
   }
-  .search_bl > .search_v > .search_block_large {
+
+  .search_bl>.search_v>.search_block_large {
     width: auto;
   }
 }

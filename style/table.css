@@ -1,0 +1,41 @@
+
+
+.table{
+  width: 100%;
+  margin: 30px 0px 30px 0px;
+}
+
+  .table > tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+.prodc{
+  display: flex;
+  gap: 20px;
+}
+
+.search_block_medium{
+  width: 560px !important;
+}
+
+
+
+.vssasa{
+  padding: 7px 0px 7px 30px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vssasa > img {
+  margin-right: 35px;
+}
+
+.vssasa > p {
+  width: 184px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+}

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style/global.css" />
     <link rel="stylesheet" href="./style/container.css" />
     <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/table.css" />
     <link rel="stylesheet" href="./style/list_pages.css" />
     <link rel="stylesheet" href="./style/search_auction.css" />
     <link rel="stylesheet" href="./style/search_title.css" />
@@ -30,91 +31,78 @@
         <span class="toggle-icon hide-btn">Скрыть поиск</span>
 
 
-
-
-        
-        <div class="search_auction">
-
-          <div class="search_bl">
-            <div class="search_v">
-              <div class="search_block_large">
-                <input type="text" placeholder="Наименование торга" >
-              </div>
-              <div class="search_block_large">
-                <input type="text" placeholder="Наименование лота" >
-              </div>
-            </div>
-            <div class="search_v media_search_v">
-              <div class="search_block_small">
-                <input type="text" placeholder="Номер торга" >
-              </div>
-              <div class="search_block_small">
-                <input type="text" placeholder="Номер лота" >
-              </div>
-            </div>
-          </div>
-
-
-            <div class="search_block_full">
+        <table class="table">
+          <tr class="prodc">
+            <td class="search_block_large">
+              <input type="text" placeholder="Наименование торга" >
+            </td>
+            <td class="search_block_small">
+              <input type="text" placeholder="Номер торга" >
+            </td>
+          </tr>
+          <tr class="prodc">
+            <td class="search_block_large">
+              <input type="text" placeholder="Наименование лота" >
+            </td>
+            <td class="search_block_small">
+              <input type="text" placeholder="Номер лота" >
+            </td>
+          </tr>
+          <tr class="prodc">
+            <td class="search_block_full">
               <input type="text" placeholder="Организатор торгов" >
-            </div>
-
-
-            <div class="search_dasa">
-              <div class="">
-                <input type="text" placeholder="ИНН организатора" >
-              </div>
-              <div class="">
-                <input type="text" placeholder="КПП организатора" >
-              </div>
-            </div>
-
-            <div class="search_block_full">
+            </td>
+          </tr>
+          <tr class="prodc">
+            <td class="search_block_large search_block_medium">
+              <input type="text" placeholder="ИНН организатора" >
+            </td>
+            <td class="search_block_large search_block_medium">
+              <input type="text" placeholder="КПП организатора" >
+            </td>
+          </tr>
+          <tr class="prodc">
+            <td class="search_block_full">
               <input type="text" placeholder="Адрес регистрации организатора" >
-            </div>
+            </td>
+          </tr>
+          <tr class="prodsv">
+            <td class="search_block_small">
+              <input type="text" placeholder="Дата проведения с" >
+            </td>
+            <td class="search_block_small">
+              <input type="text" placeholder="Дата проведения по" >
+            </td>
+            <td class="search_block_small vssasa">
+                <p>Форма представлений предложений о цене</p>
+                <img src="./img/Vector(2).png" alt="">
+            </td>
+          </tr>
+          <tr class="prodsv">
+            <td class="search_block_small">
+              <input type="text" placeholder="Начальная цена от руб." >
+            </td>
+            <td class="search_block_small">
+              <input type="text" placeholder="Начальная цена до руб." >
+            </td>
+            <td class="search_block_small vssasa">
+                <p>Статус</p>
+                <img src="./img/Vector(2).png" alt="">
+            </td>
+          </tr>
+          
+        </table> 
 
 
-              <div class="prodsv">
-                <div class="">
-                  <input type="text" placeholder="Дата проведения с" >
-                </div>
-                <div class="">
-                  <input type="text" placeholder="Дата проведения по" >
-                </div>
-                <div class="vsddvs">
-                  <h2>Форма представлений предложений о цене</h2>
-                  <img src="./img/Vector(2).png" alt="">
-                </div>
-              </div>
-
-              <div class="prodsv">
-                <div class="">
-                  <input type="text" placeholder="Начальная цена от руб." >
-                </div>
-                <div class="">
-                  <input type="text" placeholder="Начальная цена до руб." >
-                </div>
-                <div class="vsddvs">
-                  <h2>Статус</h2>
-                  <img src="./img/Vector(2).png" alt="">
-                </div>
-              </div>
 
 
-              <div class="btns_search">
-                <h2>Скрыть панель поиска</h2>
-                <div>
-                  <button class="custom-button_1">Очистить</button>
-                  <button class="custom-button_2">Искать аукцион</button>
-                </div>
-              </div>
-
+        <div class="btns_search">
+          <h2>Скрыть панель поиска</h2>
+          <div class="btn-net">
+            <button class="custom-button_1">Очистить</button>
+            <button class="custom-button_2">Искать аукцион</button>
+          </div>
         </div>
-
-
-
-
-
 
 
 
