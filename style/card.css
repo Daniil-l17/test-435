@@ -18,10 +18,7 @@
   -moz-box-shadow: -1px -2px 47px -7px rgba(0, 0, 0, 0.34);
 }
 
-.card-item>img {
-  width: 300px;
-  height: 271px;
-}
+
 
 .card-item-net {
   display: flex;
@@ -141,6 +138,15 @@
   color: #262442;
 }
 
+.card-item_img{
+  background-image: url('../img/image 15279.png');
+  background-position: center;
+  width: 300px;
+  height: 271px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .card-item-rigth-footer > div > h2 {
   font-size: 12px;
   font-weight: 400;
@@ -182,4 +188,126 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.mediaca{
+  display: none;
+}
+
+@media (max-width: 1250px) {
+  .card-item_img {
+    width: 335px;
+    border-top-left-radius: 18px;
+    height: 200px;
+    border-top-right-radius: 18px;
+    background-image: url('../img/image\ 15279\(1\).png');
+  }
+  .mediaca{
+    display: flex;
+    padding: 25px 13px 25px 10px;
+    flex-direction: column;
+  }
+  .card{
+    align-items: center;
+  }
+
+  .csacsacsa > .lefts > .fot > h2{
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+  }
+
+  .csacsacsa > .lefts > .fot > p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    color: #262442;
+  }
+
+  .csacsacsa > .lefts > .card-item-left-footer > p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    color: #262442;
+  }
+
+  .csacsacsa > .lefts > .card-item-left-footer > h2 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+  }
+
+  .mesdisavd {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .mesdisavd > .prod > p {
+font-size: 14px;
+font-weight: 400;
+line-height: 18.2px;
+text-align: left;
+color: #262442;
+  }
+
+  .csacsacsa > .rightas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+
+  .csacsacsa > .lefts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .csacsacsa{
+    display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  }
+
+  .csacsacsa > .rightas > .fot > h2 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+  }
+  .csacsacsa > .rightas > .fot > p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    color: #262442;
+  }
+
+  .mesdisavd > .prod > h2 {
+    font-size: 12px;
+  }
+  
+  .card-item{
+    flex-direction: column;
+    width: 335px;
+    background: #2624421A;
+    gap: 0px;
+  }
+  .media_card_item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    justify-content: flex-start;
+  }
+  .mediaca > .media_card_item > .card-item-left-header h2{
+    font-size: 12px;
+  }
+  .mediaca > .media_card_item > .card-item-rigth-header h2{
+    font-size: 12px;
+  }
+  .card-item-net{
+    display: none;
+  }
 }
